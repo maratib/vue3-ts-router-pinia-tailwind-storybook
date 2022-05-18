@@ -11,10 +11,7 @@
     "esModuleInterop": true,
     "lib": ["esnext", "dom", "dom.Iterable"],
     "allowJs": true,
-    "baseUrl": "./src",
-    "paths": {
-      "@/*": ["./*"]
-    }
+    "types": ["vite/client"]
   },
   "include": ["src", "stories"],
   "references": [{ "path": "./tsconfig.node.json" }],
