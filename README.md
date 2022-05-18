@@ -7,6 +7,3 @@ yarn add -D @tailwindcss/aspect-ratio @tailwindcss/forms @tailwindcss/line-clamp
 npx tailwindcss init -p
 
 ```
-
-```
-```
