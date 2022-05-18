@@ -18,9 +18,12 @@ const style = computed(() => "background: " + bgColor);
 
 <template>
   <div>
-    <button type="button" class="bg-red-500 text-white p-2" :style="style">
+    <button
+      type="button"
+      class="bg-red-500 text-white p-2 rounded-lg"
+      :style="style"
+    >
       {{ label }}
-      {{ style }}
     </button>
   </div>
 </template>
