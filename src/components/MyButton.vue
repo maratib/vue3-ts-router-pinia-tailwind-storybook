@@ -1,6 +1,5 @@
 <script setup lang="ts">
-import { computed } from "vue";
-import { ref } from "vue";
+import { computed, ref } from "vue";
 
 const { label, bgColor } = withDefaults(
   defineProps<{ label: string; bgColor?: string }>(),
